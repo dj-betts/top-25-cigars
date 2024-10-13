@@ -1,0 +1,30 @@
+1. Accuracy and Relevance Metrics
+-Precision: Measures how many of the recommended cigars are relevant or similar to the user’s original selection. Higher precision indicates the system is accurately filtering cigars that match user preferences.
+
+-Recall: Evaluates whether the recommender is capturing a comprehensive selection of relevant items. Higher recall indicates that it is providing a broad set of similar cigars.
+
+-F1 Score: Balances precision and recall to give an overall performance metric that indicates the system’s reliability in surfacing relevant items.
+
+2. Diversity and Novelty Metrics
+-Diversity: Assesses how varied the recommendations are, avoiding overly similar cigars that may limit user interest. A diverse set of recommendations exposes users to a range of options.
+
+-Novelty: Rates how often the recommender suggests new or unique cigars that the user hasn’t previously seen, encouraging discovery.
+
+3. User Satisfaction Metrics
+-User Feedback: If you can gather data, track ratings or qualitative feedback on the recommendations, either through surveys or logged interactions.
+
+-Engagement Rate: Track how often users select or interact with recommended cigars, which can indicate how relevant they find the suggestions.
+
+4. System Efficiency Metrics
+-Latency: Measure the time it takes for the system to return recommendations. Especially for real-time applications, it’s essential to keep latency low to maintain user satisfaction.
+-Throughput: Track how many recommendations the system can handle simultaneously without degradation in performance, important for scaling.
+
+5. Personalization and Adaptability
+-User Profile Adaptability: If the system learns from user behavior, measure how quickly it adapts to changing user preferences, which is crucial for personalization.
+
+-Cold Start Performance: For new users or cigars with limited data, evaluate how effectively the recommender provides recommendations despite minimal input.
+
+Example Performance Goals
+Precision > 80% for the top-5 recommended cigars
+Diversity Score ≥ 0.7, indicating a good range of recommendations
+Latency < 1 second per recommendation request
